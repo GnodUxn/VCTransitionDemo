@@ -6,8 +6,8 @@
 //  Copyright © 2017年 zonsim. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface ThirdViewController : ViewController
+@interface ThirdViewController : UIViewController
 
 @end

@@ -6,8 +6,8 @@
 //  Copyright © 2017年 zonsim. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface FirstViewController : ViewController
+@interface FirstViewController : UIViewController
 
 @end
