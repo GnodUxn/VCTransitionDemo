@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		03F4AED41F0237C400AC2DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AED31F0237C400AC2DB4 /* main.m */; };
 		03F4AED71F0237C400AC2DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AED61F0237C400AC2DB4 /* AppDelegate.m */; };
-		03F4AEDA1F0237C400AC2DB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AED91F0237C400AC2DB4 /* ViewController.m */; };
 		03F4AEDD1F0237C400AC2DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F4AEDB1F0237C400AC2DB4 /* Main.storyboard */; };
 		03F4AEDF1F0237C400AC2DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F4AEDE1F0237C400AC2DB4 /* Assets.xcassets */; };
 		03F4AEE21F0237C400AC2DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F4AEE01F0237C400AC2DB4 /* LaunchScreen.storyboard */; };
 		03F4AEED1F0237C400AC2DB4 /* VCTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AEEC1F0237C400AC2DB4 /* VCTransitionDemoTests.m */; };
 		03F4AEF81F0237C400AC2DB4 /* VCTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AEF71F0237C400AC2DB4 /* VCTransitionDemoUITests.m */; };
+		03F4AF071F0237E500AC2DB4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF061F0237E500AC2DB4 /* FirstViewController.m */; };
+		03F4AF0A1F0237F300AC2DB4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF091F0237F300AC2DB4 /* SecondViewController.m */; };
+		03F4AF221F02387400AC2DB4 /* WXDNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF0E1F02387400AC2DB4 /* WXDNavigationControllerDelegate.m */; };
+		03F4AF231F02387400AC2DB4 /* WXDViewControllerTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF101F02387400AC2DB4 /* WXDViewControllerTransitioningDelegate.m */; };
+		03F4AF241F02387400AC2DB4 /* WXDTransitionBottomLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF141F02387400AC2DB4 /* WXDTransitionBottomLeft.m */; };
+		03F4AF251F02387400AC2DB4 /* WXDTransitionCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF161F02387400AC2DB4 /* WXDTransitionCube.m */; };
+		03F4AF261F02387400AC2DB4 /* WXDTransitionCurveEaseOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF181F02387400AC2DB4 /* WXDTransitionCurveEaseOut.m */; };
+		03F4AF271F02387400AC2DB4 /* WXDTransitionFadeFold.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF1A1F02387400AC2DB4 /* WXDTransitionFadeFold.m */; };
+		03F4AF281F02387400AC2DB4 /* WXDTransitionHorizontalFlod.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF1C1F02387400AC2DB4 /* WXDTransitionHorizontalFlod.m */; };
+		03F4AF291F02387400AC2DB4 /* WXDTransitionScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF1E1F02387400AC2DB4 /* WXDTransitionScale.m */; };
+		03F4AF2A1F02387400AC2DB4 /* WXDTransitionVerticalFlod.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF201F02387400AC2DB4 /* WXDTransitionVerticalFlod.m */; };
+		03F4AF2D1F02390800AC2DB4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4AF2C1F02390800AC2DB4 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,6 @@
 		03F4AED31F0237C400AC2DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03F4AED51F0237C400AC2DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03F4AED61F0237C400AC2DB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03F4AED81F0237C400AC2DB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03F4AED91F0237C400AC2DB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03F4AEDC1F0237C400AC2DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03F4AEDE1F0237C400AC2DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F4AEE11F0237C400AC2DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,32 @@
 		03F4AEF31F0237C400AC2DB4 /* VCTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F4AEF71F0237C400AC2DB4 /* VCTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTransitionDemoUITests.m; sourceTree = "<group>"; };
 		03F4AEF91F0237C400AC2DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F4AF051F0237E500AC2DB4 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		03F4AF061F0237E500AC2DB4 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		03F4AF081F0237F300AC2DB4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		03F4AF091F0237F300AC2DB4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		03F4AF0D1F02387400AC2DB4 /* WXDNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		03F4AF0E1F02387400AC2DB4 /* WXDNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		03F4AF0F1F02387400AC2DB4 /* WXDViewControllerTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDViewControllerTransitioningDelegate.h; sourceTree = "<group>"; };
+		03F4AF101F02387400AC2DB4 /* WXDViewControllerTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDViewControllerTransitioningDelegate.m; sourceTree = "<group>"; };
+		03F4AF121F02387400AC2DB4 /* TransitionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionType.h; sourceTree = "<group>"; };
+		03F4AF131F02387400AC2DB4 /* WXDTransitionBottomLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDTransitionBottomLeft.h; sourceTree = "<group>"; };
+		03F4AF141F02387400AC2DB4 /* WXDTransitionBottomLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDTransitionBottomLeft.m; sourceTree = "<group>"; };
+		03F4AF151F02387400AC2DB4 /* WXDTransitionCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDTransitionCube.h; sourceTree = "<group>"; };
+		03F4AF161F02387400AC2DB4 /* WXDTransitionCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDTransitionCube.m; sourceTree = "<group>"; };
+		03F4AF171F02387400AC2DB4 /* WXDTransitionCurveEaseOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDTransitionCurveEaseOut.h; sourceTree = "<group>"; };
+		03F4AF181F02387400AC2DB4 /* WXDTransitionCurveEaseOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDTransitionCurveEaseOut.m; sourceTree = "<group>"; };
+		03F4AF191F02387400AC2DB4 /* WXDTransitionFadeFold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDTransitionFadeFold.h; sourceTree = "<group>"; };
+		03F4AF1A1F02387400AC2DB4 /* WXDTransitionFadeFold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDTransitionFadeFold.m; sourceTree = "<group>"; };
+		03F4AF1B1F02387400AC2DB4 /* WXDTransitionHorizontalFlod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDTransitionHorizontalFlod.h; sourceTree = "<group>"; };
+		03F4AF1C1F02387400AC2DB4 /* WXDTransitionHorizontalFlod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDTransitionHorizontalFlod.m; sourceTree = "<group>"; };
+		03F4AF1D1F02387400AC2DB4 /* WXDTransitionScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDTransitionScale.h; sourceTree = "<group>"; };
+		03F4AF1E1F02387400AC2DB4 /* WXDTransitionScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDTransitionScale.m; sourceTree = "<group>"; };
+		03F4AF1F1F02387400AC2DB4 /* WXDTransitionVerticalFlod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDTransitionVerticalFlod.h; sourceTree = "<group>"; };
+		03F4AF201F02387400AC2DB4 /* WXDTransitionVerticalFlod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDTransitionVerticalFlod.m; sourceTree = "<group>"; };
+		03F4AF211F02387400AC2DB4 /* WXDViewControllerTansition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDViewControllerTansition.h; sourceTree = "<group>"; };
+		03F4AF2B1F02390800AC2DB4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		03F4AF2C1F02390800AC2DB4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +116,7 @@
 		03F4AEC61F0237C400AC2DB4 = {
 			isa = PBXGroup;
 			children = (
+				03F4AF0B1F02387400AC2DB4 /* WXDViewControllerTransition */,
 				03F4AED11F0237C400AC2DB4 /* VCTransitionDemo */,
 				03F4AEEB1F0237C400AC2DB4 /* VCTransitionDemoTests */,
 				03F4AEF61F0237C400AC2DB4 /* VCTransitionDemoUITests */,
@@ -103,8 +139,12 @@
 			children = (
 				03F4AED51F0237C400AC2DB4 /* AppDelegate.h */,
 				03F4AED61F0237C400AC2DB4 /* AppDelegate.m */,
-				03F4AED81F0237C400AC2DB4 /* ViewController.h */,
-				03F4AED91F0237C400AC2DB4 /* ViewController.m */,
+				03F4AF051F0237E500AC2DB4 /* FirstViewController.h */,
+				03F4AF061F0237E500AC2DB4 /* FirstViewController.m */,
+				03F4AF081F0237F300AC2DB4 /* SecondViewController.h */,
+				03F4AF091F0237F300AC2DB4 /* SecondViewController.m */,
+				03F4AF2B1F02390800AC2DB4 /* ThirdViewController.h */,
+				03F4AF2C1F02390800AC2DB4 /* ThirdViewController.m */,
 				03F4AEDB1F0237C400AC2DB4 /* Main.storyboard */,
 				03F4AEDE1F0237C400AC2DB4 /* Assets.xcassets */,
 				03F4AEE01F0237C400AC2DB4 /* LaunchScreen.storyboard */,
@@ -138,6 +178,49 @@
 				03F4AEF91F0237C400AC2DB4 /* Info.plist */,
 			);
 			path = VCTransitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		03F4AF0B1F02387400AC2DB4 /* WXDViewControllerTransition */ = {
+			isa = PBXGroup;
+			children = (
+				03F4AF0C1F02387400AC2DB4 /* WXDTransitionDelegate */,
+				03F4AF111F02387400AC2DB4 /* WXDVCTransitionType */,
+				03F4AF211F02387400AC2DB4 /* WXDViewControllerTansition.h */,
+			);
+			path = WXDViewControllerTransition;
+			sourceTree = "<group>";
+		};
+		03F4AF0C1F02387400AC2DB4 /* WXDTransitionDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				03F4AF0D1F02387400AC2DB4 /* WXDNavigationControllerDelegate.h */,
+				03F4AF0E1F02387400AC2DB4 /* WXDNavigationControllerDelegate.m */,
+				03F4AF0F1F02387400AC2DB4 /* WXDViewControllerTransitioningDelegate.h */,
+				03F4AF101F02387400AC2DB4 /* WXDViewControllerTransitioningDelegate.m */,
+			);
+			path = WXDTransitionDelegate;
+			sourceTree = "<group>";
+		};
+		03F4AF111F02387400AC2DB4 /* WXDVCTransitionType */ = {
+			isa = PBXGroup;
+			children = (
+				03F4AF121F02387400AC2DB4 /* TransitionType.h */,
+				03F4AF131F02387400AC2DB4 /* WXDTransitionBottomLeft.h */,
+				03F4AF141F02387400AC2DB4 /* WXDTransitionBottomLeft.m */,
+				03F4AF151F02387400AC2DB4 /* WXDTransitionCube.h */,
+				03F4AF161F02387400AC2DB4 /* WXDTransitionCube.m */,
+				03F4AF171F02387400AC2DB4 /* WXDTransitionCurveEaseOut.h */,
+				03F4AF181F02387400AC2DB4 /* WXDTransitionCurveEaseOut.m */,
+				03F4AF191F02387400AC2DB4 /* WXDTransitionFadeFold.h */,
+				03F4AF1A1F02387400AC2DB4 /* WXDTransitionFadeFold.m */,
+				03F4AF1B1F02387400AC2DB4 /* WXDTransitionHorizontalFlod.h */,
+				03F4AF1C1F02387400AC2DB4 /* WXDTransitionHorizontalFlod.m */,
+				03F4AF1D1F02387400AC2DB4 /* WXDTransitionScale.h */,
+				03F4AF1E1F02387400AC2DB4 /* WXDTransitionScale.m */,
+				03F4AF1F1F02387400AC2DB4 /* WXDTransitionVerticalFlod.h */,
+				03F4AF201F02387400AC2DB4 /* WXDTransitionVerticalFlod.m */,
+			);
+			path = WXDVCTransitionType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +356,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F4AEDA1F0237C400AC2DB4 /* ViewController.m in Sources */,
+				03F4AF221F02387400AC2DB4 /* WXDNavigationControllerDelegate.m in Sources */,
+				03F4AF2A1F02387400AC2DB4 /* WXDTransitionVerticalFlod.m in Sources */,
+				03F4AF0A1F0237F300AC2DB4 /* SecondViewController.m in Sources */,
+				03F4AF241F02387400AC2DB4 /* WXDTransitionBottomLeft.m in Sources */,
+				03F4AF251F02387400AC2DB4 /* WXDTransitionCube.m in Sources */,
+				03F4AF261F02387400AC2DB4 /* WXDTransitionCurveEaseOut.m in Sources */,
+				03F4AF231F02387400AC2DB4 /* WXDViewControllerTransitioningDelegate.m in Sources */,
 				03F4AED71F0237C400AC2DB4 /* AppDelegate.m in Sources */,
 				03F4AED41F0237C400AC2DB4 /* main.m in Sources */,
+				03F4AF281F02387400AC2DB4 /* WXDTransitionHorizontalFlod.m in Sources */,
+				03F4AF2D1F02390800AC2DB4 /* ThirdViewController.m in Sources */,
+				03F4AF291F02387400AC2DB4 /* WXDTransitionScale.m in Sources */,
+				03F4AF271F02387400AC2DB4 /* WXDTransitionFadeFold.m in Sources */,
+				03F4AF071F0237E500AC2DB4 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
